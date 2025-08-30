@@ -1,0 +1,33 @@
+.cabessario{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.areaGrande{
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgb(233, 233, 233);
+    width: 80%;
+    height: 90%;
+
+}
+.areaInformacoes{
+    width: 80%;
+    margin: auto;
+
+}
+
+.tabelaTemp{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border : 1px solid black;
+}
+
+.linha2{
+    width: 10px;
+    border : 1px solid black;
+}
