@@ -1,33 +1,38 @@
-.cabessario{
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+h1 {
     text-align: center;
-    margin-top: 20px;
-    background-color: rgb(233, 233, 233);
-    padding: 10px;
 }
 
-.areaGrande{
-    margin: auto;
-    margin-top: 80px;
-    background-color: rgb(233, 233, 233);
-    width: 80%;
-    height: 90%;
-
-}
-.areaInformacoes{
-    width: 80%;
-    margin: auto;
-
-}
-
-.tabelaTemp{
-    width: 100%;
+nav {
+    margin-bottom: 20px;
     text-align: center;
-    border-collapse: collapse;
-    table-layout: fixed;
-    border : 1px solid black;
 }
 
-.linha2{
-    width: 10px;
-    border : 1px solid black;
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+section {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
 }
