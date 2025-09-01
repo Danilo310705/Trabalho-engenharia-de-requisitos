@@ -1,12 +1,49 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background: #f9f9f9;
     color: #333;
+    background-color: #00002b;
+    color:  #ffffff;  
+    animation: Mudar_cor 5s ease-in-out; 
+}
+
+body.Reload_g{
+    animation: Girar 3s linear;
+}
+
+header {
+    background: #100956;
+    padding: 15px;
+    width:1134px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #211181;
+    color:  #ffffff;  
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+section:hover{
+    width:1300px;
 }
 
 h1 {
     text-align: center;
+}
+
+p, h3, h2 {
+    margin-left: 2vw;
 }
 
 nav {
@@ -21,11 +58,16 @@ nav a {
 }
 
 section {
-    background: #fff;
+    background: #211181;
     padding: 15px;
+    margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 3vw;
     border-radius: 8px;
+    width:1100px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2vw;
+    transition: 0.7s;
 }
 
 h2 {
@@ -35,4 +77,32 @@ h2 {
 ul {
     margin: 0;
     padding-left: 20px;
+}
+
+@keyframes Mudar_cor{
+    0% {
+        background-color: #00002b;
+    }
+    25% {
+        background-color: #010127;
+    }
+    50% {
+        background-color: #000000;
+    }
+    75% {
+        background-color: #010127;
+    }
+    100% {
+        background-color: #00002b;
+    }
+}
+
+@keyframes Girar {
+    0%{
+        transform: rotate(0deg)
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
 }
